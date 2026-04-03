@@ -1,0 +1,121 @@
+Skip to main content
+Google Classroom
+Classroom
+FRONTENT DEVELOPMENT B.TECH CSE
+D
+Home
+Calendar
+Enrolled
+To-do
+F
+FRONTENT DEVELOPMENT B.TECH CSE
+D
+J
+July Phase Examination Batch - 2024
+July 2024
+Archived classes
+Settings
+CREATE A REGISTRATION FORMCREATE A REGISTRATION FORM
+CREATE A REGISTRATION FORM 
+Sudhanshu Kumar
+•
+Feb 1
+20 points
+Due Today
+prominently. (e.g., input, select, textarea, checkbox, radio, etc.). section. selection. with country code. option. for each course. information.   A SAMPLE FORM IS ATTACHED FOR YOUR REFERENCE.
+
+4o
+
+Screenshot 2025-02-01 103233.png
+Image
+Class comments
+Your work
+Turned in
+
+arpit.html
+HTML
+Work cannot be turned in after the due date
+Private comments
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body><center><img src="images.png" width="200"</center>
+    
+    <h3>REGISTRATION FORM</h3>
+<HR>
+<form action="submit" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" placeholder="Enter Your Name" required><br><br>
+
+    <label for="name"> Father's Name:</label>
+    <input type="text" placeholder="Enter Your Father's Name" required><br><br>
+
+    <label for="name"> Mother's Name:</label>
+    <input type="text" placeholder="Enter Your Mother's Name" required><br><br>
+
+    <label for="name">Contact No</label>
+    <input type="number" placeholder="Enter Your Contact No" required><br><br>
+
+    <label for="name">Email Id:</label>
+    <input type="text" placeholder="Enter Your Name" required><br><br>
+
+    
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+    <br><br>
+
+    <label for="name">DOB:</label>
+    <input type="date" placeholder="Enter Your DOB" required><br><br>
+    <br>
+
+    <label for="country">Country:</label>
+    
+    <select>
+       <option value="India">India:</option>
+       <option value="Russia">Russia:</option>
+       <option value="USA">USA:</option>
+       <option value="Paksitan">Paksitan:</option>
+                       
+       
+    
+       
+       
+
+    </select>
+    <br><br>
+    <label for="name">Upload Profile Pic</label>
+    <input type="file"  required><br><br>
+
+    <input type="checkbox" required>
+    <label for="Terms">I accept all terms & conditions</label><BR><BR>
+
+   
+     
+
+
+
+
+    
+
+    <button type="Submit">SUBMIT</button>
+</form>
+</center>
+</body>
+</html>
+arpit.html
+Displaying arpit.html.
